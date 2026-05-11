@@ -16,7 +16,9 @@
 本仓库严格遵循任务书指定的目录命名规范，确保自动化脚本可识别。
 ### 📂 仓库结构 (Repository Structure)
 
+### 📂 仓库结构 (Repository Structure)
 
+```
 zhangmuhan/
 ├── TASK1/                # 挑战一：基于大模型的中文病例实体抽取
 │   ├── entity_extraction.py
@@ -33,10 +35,9 @@ zhangmuhan/
 │   └── 指南.pdf
 ├── AI_Chat_Records.md    # AI 对话链接汇总 (关键提交物)
 └── README.md             # 本说明文件
+```
 
-
-
-任务要点：
+## 任务要点：
 ## TASK 1：基于大模型的中文病例实体抽取
 实现功能： 使用 Python 调用大模型 API（Qwen），通过设计结构化 Prompt 从 PDF 病例中提取患者基本信息、症状、诊断及治疗方案。
 核心产出： 实现了医疗实体到标准化 JSON 格式的自动化转化。
