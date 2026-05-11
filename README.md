@@ -16,7 +16,7 @@
 本仓库严格遵循任务书指定的目录命名规范，确保自动化脚本可识别。
 ### 📂 仓库结构 (Repository Structure)
 
-```text
+
 zhangmuhan/
 ├── TASK1/                # 挑战一：基于大模型的中文病例实体抽取
 │   ├── entity_extraction.py
@@ -33,7 +33,8 @@ zhangmuhan/
 │   └── 指南.pdf
 ├── AI_Chat_Records.md    # AI 对话链接汇总 (关键提交物)
 └── README.md             # 本说明文件
-'''
+
+
 
 任务要点：
 ## TASK 1：基于大模型的中文病例实体抽取
