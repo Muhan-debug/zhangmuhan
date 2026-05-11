@@ -11,12 +11,8 @@
 
 
 ## 项目概述仓库结构与提交物清单
-## 📂 仓库结构与提交物清单
 
 本仓库严格遵循任务书指定的目录命名规范，确保自动化脚本可识别。
-### 📂 仓库结构 (Repository Structure)
-
-### 📂 仓库结构 (Repository Structure)
 
 ```
 zhangmuhan/
