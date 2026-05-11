@@ -11,37 +11,31 @@
 
 
 ## 项目概述仓库结构与提交物清单
+## 📂 仓库结构与提交物清单
+
+本仓库严格遵循任务书指定的目录命名规范，确保自动化脚本可识别。
+### 📂 仓库结构 (Repository Structure)
+
+```text
 zhangmuhan/
-│
-├── TASK1/                          # 基于大模型的中文病例实体抽取
-│   ├── entity_extraction.py        # 主脚本：API 调用与实体抽取逻辑
-│   ├── requirements.txt            # Python 依赖列表
-│   ├── cases/                      # 原始 PDF 病例文件
-│   │   └── *.pdf
-│   └── results/                    # 抽取结果（JSON 格式）
-│       └── *.json
-│
-├── TASK2/                          # 心衰患者生存预测与学术论文
-│   ├── analysis.py      # 主脚本：数据处理与模型训练
-│   ├── requirements.txt            # Python 依赖列表
-│   ├── dataset/                    # 心衰数据集
-│   │   └── heart_failure.csv
-│   ├── paper/                      # LaTeX 论文源文件
-│   │   ├── main.tex
-│   │   └── *.bib
-│   └── paper_output.pdf            # 最终生成的 PDF 论文
-│
-├── TASK3/                          # 医疗大模型新人快速上手指南
-│   ├── 医疗大模型新人快速上手指南.md         # Markdown 版指南
-│   └── 医疗大模型新人快速上手指南.pdf        # PDF 版指南
-│
-├── AI_Chat_Records.md              # AI 对话链接汇总
-└── README.md                       # 本文件
+├── TASK1/                # 挑战一：基于大模型的中文病例实体抽取
+│   ├── entity_extraction.py
+│   ├── requirements.txt
+│   ├── cases/            # 原始 PDF 病例
+│   └── results/          # 抽取结果 (JSON)
+├── TASK2/                # 挑战二：心衰患者生存预测与学术论文
+│   ├── analysis.py
+│   ├── requirements.txt
+│   ├── dataset/          # heart_failure.csv
+│   └── paper/            # LaTeX 源码及 PDF
+├── TASK3/                # 挑战三：医疗大模型新人快速上手指南
+│   ├── 指南.md
+│   └── 指南.pdf
+├── AI_Chat_Records.md    # AI 对话链接汇总 (关键提交物)
+└── README.md             # 本说明文件
+'''
 
-
----
-
-## 任务要点：
+任务要点：
 ## TASK 1：基于大模型的中文病例实体抽取
 实现功能： 使用 Python 调用大模型 API（Qwen），通过设计结构化 Prompt 从 PDF 病例中提取患者基本信息、症状、诊断及治疗方案。
 核心产出： 实现了医疗实体到标准化 JSON 格式的自动化转化。
