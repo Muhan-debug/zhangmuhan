@@ -1,5 +1,4 @@
 
-torch
   pandas>=1.5.0          # 数据加载与处理
   numpy>=1.23.0           # 数值计算
   matplotlib>=3.6.0       # 绘图基础库
